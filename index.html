@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/28567b5c94.js" crossorigin="anonymous"></script>
+    <!-- land : Landing; Cont: Container; -->
+    <div class="preloader">
+        <div class="logo">
+            <div class="circle light"></div>
+            <div class="circle lighter"></div>
+            <div class="circle lightest"></div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="logo">
+            <div class="circle light"></div>
+            <div class="circle lighter"></div>
+            <div class="circle lightest"></div>
+        </div>
+        <div class="logoName">
+            <div>
+                <p class="in">In</p>
+                <p class="sove">sove</p>
+            </div>
+            <div class="caption c-grey">Medical Healthcare</div>
+        </div>
+        <div class="headerContacts">
+            <div class="location">
+                <i class="fa-solid fa-location-dot" style="color: #2cbbcf;"></i>
+                <p class="c-grey">123 Arling Miola NY</p>
+            </div>
+            <div class="number">
+                <i class="fa-solid fa-phone" style="color: #2cbbcf;"></i>
+                <p class="c-grey">(+123) 456 6789</p>
+            </div>
+        </div>
+        <div class="button">
+            <div class="headerButton">
+                <p>BOOK NOW</p>
+            </div>
+        </div>
+    </div>
+    <div class="headerbar">
+        <div class="navbar">
+            <li>Home</li>
+            <div class="line"></div>
+            <li>Doctors</li>
+            <div class="line"></div>
+            <li>Department</li>
+            <div class="line"></div>
+            <li>Services</li>
+            <div class="line"></div>
+            <li>Blog</li>
+            <div class="line"></div>
+            <li>Contact</li>
+        </div>
+        <div class="searchbar">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass" style="color: #2cbbcf;"></i></button>
+            <input type="text" class="headerinput" placeholder="Search...">
+        </div>
+    </div>
+    <div class="landCont1">
+        <div class="contentSide">
+            <div class="iconslot">
+                <i class="fa-solid fa-heart-pulse" style="color: #2cbbcf;"></i>
+                <span>LIVE YOUR LIFE</span>
+            </div>
+            <div class="contTitle">
+                <h2>We care about your health</h2>
+            </div>
+            <div class="contDetail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, obcaecati
+                nostrum. Nostrum nobis eum odit enim. Consectetur, nulla sint.</div>
+            <div class="landCont1Button">
+                <p>CONTACT US</p>
+            </div>
+        </div>
+        <div class="imageside">
+            <div class="backcircle"></div>
+            <img src="doctor.png" alt="" class="doctor">
+        </div>
+    </div>
+    <div class="landCont2">
+        <div class="properties">
+            <div class="property"><span class="propcount">+5120</span><span class="proptext">Happy Parents</span></div>
+            <div class="line"></div>
+            <div class="property"><span class="propcount">26</span><span class="proptext">Total Branches</span></div>
+            <div class="line"></div>
+            <div class="property"><span class="propcount">+53</span><span class="proptext">Senior Doctor</span></div>
+            <div class="line"></div>
+            <div class="property"><span class="propcount">+10</span><span class="proptext">Years Experience</span></div>
+        </div>
+        <div class="innerCont2">
+            <div class="content">
+                <div class="circle light"></div>
+                <div class="circle lighter"></div>
+                <div class="circle lightest"></div>
+                <h2>Our Best Services For Your Solution</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ullam sapiente itaque distinctio
+                    ratione, cum aspernatur?</p>
+            </div>
+            <div class="subinnerCont1">
+                <div class="serviceSect">
+                    <div class="serviceicon"><i class="fa-solid fa-house" style="color: #2cbbcf;"></i></div>
+                    <h3>General Practioners</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="serviceSect">
+                    <div class="serviceicon"><i class="fa-solid fa-person-pregnant" style="color: #2cbbcf;"></i></div>
+                    <h3>Pregnancy Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="serviceSect">
+                    <div class="serviceicon"><i class="fa-solid fa-rectangle-list" style="color: #2cbbcf;"></i></div>
+                    <h3>Nutritional Support</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="serviceSect">
+                    <div class="serviceicon"><i class="fa-solid fa-prescription-bottle-medical"
+                            style="color: #2cbbcf;"></i></div>
+                    <h3>Pharmaceutical Care</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="innerCont3">
+            <h2><span class="apph">Book Appointment Or Call: </span><span class="appNo">(+123) 456 6789</span></h2>
+            <form action="" class="appForm" id="appForm">
+                <select name="Department" id="dept" required class="formItem">
+                    <option value="">Select Department</option>
+                    <option value="Department 1">Department 1</option>
+                    <option value="Department 2">Department 2</option>
+                    <option value="Department 3">Department 3</option>
+                </select>
+                <select name="Doctor" id="doctor" required class="formItem">
+                    <option value="">Select Doctor</option>
+                    <option value="Dr John Smith">Dr John Smith</option>
+                    <option value="Dr John Doe">Dr John Doe</option>
+                    <option value="Dr Paul Henry">Dr Paul Henry</option>
+                </select>
+                <input type="text" placeholder="Full Name" class="formItem">
+                <input type="text" placeholder="Phone Number" class="formItem">
+                <input type="date" name="date" id="date" class="formItem">
+                <input type="time" name="time" id="time" class="formItem">
+                <button type="submit" id="submitbtn"> Book An Appointment</button>
+            </form>
+        </div>
+    </div>
+    <div class="landCont3">
+        <div class="circle light"></div>
+        <div class="circle lighter"></div>
+        <div class="circle lightest"></div>
+        <div class="Cont3innerCont1">
+            <div class="imagesSide">
+                <div class="circles bigCircle"><img
+                        src="https://img.freepik.com/free-vector/parents-concept-illustration_114360-4137.jpg?semt=ais_hybrid"
+                        alt=""></div>
+                <div class="circles c1"><img
+                        src="https://static.vecteezy.com/system/resources/previews/004/310/735/non_2x/parents-with-son-avatar-characters-free-vector.jpg"
+                        alt=""></div>
+                <div class="circles c2"><img
+                        src="https://img.freepik.com/free-vector/hand-drawn-asian-family-illustration_23-2149414645.jpg"
+                        alt=""></div>
+                <div class="circles c3"><img
+                        src="https://t3.ftcdn.net/jpg/01/15/63/14/360_F_115631416_sgBi48bZBqoED5EBZEiyHDF88XxiAhcs.jpg"
+                        alt=""></div>
+                <div class="circles c4"><img
+                        src="https://thumbs.dreamstime.com/b/family-one-child-parents-daughter-standing-full-length-figures-flat-cartoon-vector-illustration-200680720.jpg"
+                        alt=""></div>
+            </div>
+            <div class="qutationSide">
+                <div class="qutation Q1 disableQuote">
+                    <p><i class="fa-solid fa-quote-left" style="color: #249faf7c;"></i> Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Ipsa incidunt animi, voluptatum repudiandae cumque laborum?</p>
+                    <i class="fa-solid fa-quote-right" style="color: #249faf7c;"></i>
+                    <span class="personName">Donald Prunk</span>
+                    <span class="identity">Customer</span>
+                </div>
+                <div class="qutation Q2 enableQuote">
+                    <p><i class="fa-solid fa-quote-left" style="color: #249faf7c;"></i> Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Ipsa incidunt animi, voluptatum repudiandae cumque laborum?</p>
+                    <i class="fa-solid fa-quote-right" style="color: #249faf7c;"></i>
+                    <span class="personName">Lourise Pasro</span>
+                    <span class="identity">Customer</span>
+                </div>
+                <div class="qutation Q3 disableQuote">
+                    <p><i class="fa-solid fa-quote-left" style="color: #249faf7c;"></i> Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Ipsa incidunt animi, voluptatum repudiandae cumque laborum?</p>
+                    <i class="fa-solid fa-quote-right" style="color: #249faf7c;"></i>
+                    <span class="personName">Karvis Kenith</span>
+                    <span class="identity">Customer</span>
+                </div>
+                <div class="qutation Q4 disableQuote">
+                    <p><i class="fa-solid fa-quote-left" style="color: #249faf7c;"></i> Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit. Ipsa incidunt animi, voluptatum repudiandae cumque laborum?</p>
+                    <i class="fa-solid fa-quote-right" style="color: #249faf7c;"></i>
+                    <span class="personName">Metburth Bronlie</span>
+                    <span class="identity">Customer</span>
+                </div>
+                <div class="sliderpoints">
+                    <div class="points inactive Q1"></div>
+                    <div class="points active Q2"></div>
+                    <div class="points inactive Q3"></div>
+                    <div class="points inactive Q4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="teamCont4">
+        <h2>Our Team</h2>
+        <div class="teamgrid">
+            <div class="twoSet enableSetLeft">
+                <div class="memberCard">
+                    <div class="image">
+                        <img src="doctor.png" alt="">
+                    </div>
+                    <div class="profile">
+                        <h4>Doctor</h4>
+                        <span>General Doctor</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"
+                                    style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"
+                                    style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-square-instagram" style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"
+                                    style="color: #249faf7c;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="memberCard">
+                    <div class="image">
+                        <img src="doctor.png" alt="">
+                    </div>
+                    <div class="profile">
+                        <h4>Doctor</h4>
+                        <span>General Doctor</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div>
+                            <a href="#" target="_blank" rel="noopener noreferrer"></a><i class="fa-brands fa-youtube"
+                                style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"></a><i class="fa-brands fa-facebook"
+                                style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"></a><i
+                                class="fa-brands fa-square-instagram" style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"></a><i class="fa-brands fa-pinterest"
+                                style="color: #249faf7c;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="twoSet disableSetRight">
+                <div class="memberCard">
+                    <div class="image">
+                        <img src="doctor.png" alt="">
+                    </div>
+                    <div class="profile">
+                        <h4>Doctor</h4>
+                        <span>General Doctor</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"
+                                    style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"
+                                    style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-square-instagram" style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"
+                                    style="color: #249faf7c;"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="memberCard">
+                    <div class="image">
+                        <img src="doctor.png" alt="">
+                    </div>
+                    <div class="profile">
+                        <h4>Doctor</h4>
+                        <span>General Doctor</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                        <div>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"
+                                    style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"
+                                    style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i
+                                    class="fa-brands fa-square-instagram" style="color: #249faf7c;"></i></a>
+                            <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-pinterest"
+                                    style="color: #249faf7c;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="memberSliderpoints">
+            <div class="memberPoints Mactive left"></div>
+            <div class="memberPoints Minactive right"></div>
+        </div>
+    </div>
+    <div class="qnaCont5">
+        <h2>We've Got Answers</h2>
+        <div class="question border-Bottom ques1">
+            <p>How Are they All?</p>
+            <div>
+                <i class="fa-solid fa-plus plus1" style="color: #2cbbcf;"></i>
+                <i class="fa-solid fa-minus minus1" style="color: #2cbbcf; display: none;"></i>
+            </div>
+        </div>
+        <div class="answer border-Bottom ans1" style="display: none;">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, beatae, quis dicta possimus nobis
+                saepe eveniet quas doloribus doloremque.</p>
+        </div>
+        <div class="question border-Bottom ques2">
+            <p>How Are they All?</p>
+            <div>
+                <i class="fa-solid fa-plus plus2" style="color: #2cbbcf;"></i>
+                <i class="fa-solid fa-minus minus2" style="color: #2cbbcf; display: none;"></i>
+            </div>
+        </div>
+        <div class="answer border-Bottom ans2" style="display: none;">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, beatae, quis dicta possimus nobis
+                saepe eveniet quas doloribus doloremque.</p>
+        </div>
+        <div class="question border-Bottom ques3">
+            <p>How Are they All?</p>
+            <div>
+                <i class="fa-solid fa-plus plus3" style="color: #2cbbcf;"></i>
+                <i class="fa-solid fa-minus minus3" style="color: #2cbbcf; display: none;"></i>
+            </div>
+        </div>
+        <div class="answer border-Bottom ans3" style="display: none;">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, beatae, quis dicta possimus nobis
+                saepe eveniet quas doloribus doloremque.</p>
+        </div>
+        <div class="question border-Bottom ques4">
+            <p>How Are they All?</p>
+            <div>
+                <i class="fa-solid fa-plus plus4" style="color: #2cbbcf;"></i>
+                <i class="fa-solid fa-minus minus4" style="color: #2cbbcf; display: none;"></i>
+            </div>
+        </div>
+        <div class="answer border-Bottom ans4" style="display: none;">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, beatae, quis dicta possimus nobis
+                saepe eveniet quas doloribus doloremque.</p>
+        </div>
+    </div>
+    <div class="clinicsCont6">
+        <div class="sidebarCont6">
+            <div class="clinic1 clinicbtn">Cardiology Clinic</div>
+            <div class="clinic2 clinicbtn clinicActive">Neuroldivgy Clinic</div>
+            <div class="clinic3 clinicbtn">Gastrology Clinic</div>
+            <div class="clinic4 clinicbtn">Haemogloby Clinic</div>
+            <div class="clinic5 clinicbtn">Extronsiology Clinic</div>
+            <div class="clinic6 clinicbtn">Potentialogy Clinic</div>
+        </div>
+        <div class="displayBarCont6">
+            <div class="clinic1">
+                <h2>Cardiology Clinic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor
+                    blanditiis eos autem quae inventore eaque. Nam, qui est.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor.</p>
+                <div class="navbarClinic">
+                    <li>CardioSquidso polomo</li>
+                    <div class="lineClinic"></div>
+                    <li>Doctors Cardiologists</li>
+                    <div class="lineClinic"></div>
+                    <li>Department Cardiology</li>
+                </div>
+                <button class="buttonLM">Learn More</button>
+            </div>
+            <div class="clinic2 d-inline">
+                <h2>Neurology Clinic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor
+                    blanditiis eos autem quae inventore eaque. Nam, qui est.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor.</p>
+                <div class="navbarClinic">
+                    <li>CardioSquidso polomo</li>
+                    <div class="lineClinic"></div>
+                    <li>Doctors Cardiologists</li>
+                    <div class="lineClinic"></div>
+                    <li>Department Cardiology</li>
+                </div>
+                <button class="buttonLM">Learn More</button>
+            </div>
+            <div class="clinic3">
+                <h2>Gastrology Clinic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor
+                    blanditiis eos autem quae inventore eaque. Nam, qui est.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor.</p>
+                <div class="navbarClinic">
+                    <li>CardioSquidso polomo</li>
+                    <div class="lineClinic"></div>
+                    <li>Doctors Cardiologists</li>
+                    <div class="lineClinic"></div>
+                    <li>Department Cardiology</li>
+                </div>
+                <button class="buttonLM">Learn More</button>
+            </div>
+            <div class="clinic4">
+                <h2>Haemogloby Clinic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor
+                    blanditiis eos autem quae inventore eaque. Nam, qui est.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor.</p>
+                <div class="navbarClinic">
+                    <li>CardioSquidso polomo</li>
+                    <div class="lineClinic"></div>
+                    <li>Doctors Cardiologists</li>
+                    <div class="lineClinic"></div>
+                    <li>Department Cardiology</li>
+                </div>
+                <button class="buttonLM">Learn More</button>
+            </div>
+            <div class="clinic5">
+                <h2>Extronsiology Clinic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor
+                    blanditiis eos autem quae inventore eaque. Nam, qui est.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor.</p>
+                <div class="navbarClinic">
+                    <li>CardioSquidso polomo</li>
+                    <div class="lineClinic"></div>
+                    <li>Doctors Cardiologists</li>
+                    <div class="lineClinic"></div>
+                    <li>Department Cardiology</li>
+                </div>
+                <button class="buttonLM">Learn More</button>
+            </div>
+            <div class="clinic6">
+                <h2>Potentialology Clinic</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor
+                    blanditiis eos autem quae inventore eaque. Nam, qui est.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel iure mollitia enim dolor.</p>
+                <div class="navbarClinic">
+                    <li>CardioSquidso polomo</li>
+                    <div class="lineClinic"></div>
+                    <li>Doctors Cardiologists</li>
+                    <div class="lineClinic"></div>
+                    <li>Department Cardiology</li>
+                </div>
+                <button class="buttonLM">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div class="postsCont7">
+        <h2>OUR RECENT POSTS</h2>
+        <div class="postsGrid">
+            <div class="post">
+                <div class="postimg">
+                    <img src="https://mediworld.co.uk/cdn/shop/articles/46bd8c831481e7edfc442f8397692eb9.jpg?v=1688484030"
+                        alt="">
+                    <div class="caption">MEDICAL</div>
+                </div>
+                <div class="postDesp">
+                    <p class="date">Jan 2, 2023</p>
+                    <h3>10 points to avoid for your heart health</h3>
+                    <p class="postText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima non cumque
+                        repellat mollitia similique harum nesciunt incidunt illo adipisci... <a><span>Read
+                                More</span></a></p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="postimg">
+                    <img src="https://etimg.etb2bimg.com/photo/94525801.cms" alt="">
+                    <div class="caption">MEDICAL</div>
+                </div>
+                <div class="postDesp">
+                    <p class="date">Jan 2, 2023</p>
+                    <h3>10 points to avoid for your heart health</h3>
+                    <p class="postText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima non cumque
+                        repellat mollitia similique harum nesciunt incidunt illo adipisci... <a><span>Read
+                                More</span></a></p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="postimg">
+                    <img src="https://media.post.rvohealth.io/wp-content/uploads/sites/3/2023/04/2484387-7-Best-Stethoscopes-of-2023-732x549-Feature-732x549.jpg"
+                        alt="">
+                    <div class="caption">MEDICAL</div>
+                </div>
+                <div class="postDesp">
+                    <p class="date">Jan 2, 2023</p>
+                    <h3>10 points to avoid for your heart health</h3>
+                    <p class="postText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima non cumque
+                        repellat mollitia similique harum nesciunt incidunt illo adipisci... <a><span>Read
+                                More</span></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sponsersCont8">
+        <img src="https://w7.pngwing.com/pngs/953/261/png-transparent-south-africa-logo-brand-organization-health-care-medical-company-text-logo-business.png"
+            alt=""><img
+            src="https://e7.pngegg.com/pngimages/377/856/png-clipart-logo-physician-product-clinic-brand-medical-logo-blue-text.png"
+            alt=""><img
+            src="https://w7.pngwing.com/pngs/604/339/png-transparent-logo-brand-hamilton-medical-center-organization-others-blue-text-trademark.png"
+            alt=""><img
+            src="https://e7.pngegg.com/pngimages/187/552/png-clipart-logo-product-brand-trademark-medicine-beauty-slim-text-trademark.png"
+            alt=""><img src="https://image.similarpng.com/very-thumbnail/2021/06/Medical-logo-premium-vector-PNG.png"
+            alt="">
+    </div>
+    <div class="subscriptionCont9">
+        <div class="circle light"></div>
+        <div class="circle lighter"></div>
+        <div class="circle lightest"></div>
+        <div class="contentCont9">
+            <div class="sideLeft">
+                <p>Our Newsletter</p>
+                <h2>Subscribe to get more updates</h2>
+            </div>
+            <div class="sideRight"><input type="text" placeholder="Your email address"><button
+                    class="subscribe">Subscribe</button></div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footerCol1">
+            <div class="logoset">
+                <div class="logo">
+                    <div class="circle light"></div>
+                    <div class="circle lighter"></div>
+                    <div class="circle lightest"></div>
+                </div>
+                <div class="logoName">
+                    <div>
+                        <p class="in">In</p>
+                        <p class="sove">sove</p>
+                    </div>
+                    <div class="caption c-grey">Medical Healthcare</div>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing. Nemo ad modi.</p>
+            <div class="footerContacts">
+                <div class="flocation">
+                    <i class="fa-solid fa-location-dot" style="color: #2cbbcf;"></i>
+                    <p class="c-grey">123 Arling Miola NY</p>
+                </div>
+                <div class="fmail">
+                    <i class="fa-solid fa-envelope" style="color: #2cbbcf;"></i>
+                    <p class="c-grey">abc@insove.com</p>
+                </div>
+                <div class="fnumber">
+                    <i class="fa-solid fa-phone" style="color: #2cbbcf;"></i>
+                    <p class="c-grey">(+123) 456 6789</p>
+                </div>
+            </div>
+            <div class="footerSocialIcons">
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"
+                        style="color: #1294a5c2;"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"
+                        style="color: #1294a5c2;"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-square-twitter"
+                        style="color: #1294a5c2;"></i></a>
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"
+                        style="color: #1294a5c2;"></i></a>
+            </div>
+        </div>
+        <div class="footerCol2">
+            <h2>Quick Links</h2>
+            <div class="footernavs">
+                <a href="">
+                    <p>Home</p>
+                </a>
+                <a href="">
+                    <p>Our Pricing</p>
+                </a>
+                <a href="">
+                    <p>Doctors</p>
+                </a>
+                <a href="">
+                    <p>Contact</p>
+                </a>
+                <a href="">
+                    <p>Department</p>
+                </a>
+                <a href="">
+                    <p>Career</p>
+                </a>
+                <a href="">
+                    <p>Services</p>
+                </a>
+                <a href="">
+                    <p>FAQs</p>
+                </a>
+                <a href="">
+                    <p>Blog</p>
+                </a>
+                <a href="">
+                    <p>Privacy Policy</p>
+                </a>
+            </div>
+        </div>
+        <div class="footerCol3">
+            <h2>Opening Hours</h2>
+            <div class="timingbars">
+                <p class="day">Monday - Thursday</p>
+                <p class="time">8:00 A.M. - 8:00 P.M.</p>
+            </div>
+            <div class="timingbars">
+                <p class="day">Friday - Saturday</p>
+                <p class="time">10:00 A.M. - 4:00 P.M.</p>
+            </div>
+            <div class="timingbars">
+                <p class="day">Sunday</p>
+                <p class="time">Emergency Only</p>
+            </div>
+            <div class="timingbars">
+                <p class="day">Personal</p>
+                <p class="time">7:00 A.M. - 9:00 A.M.</p>
+            </div>
+        </div>
+    </div>
+    <div class="footerbar">
+        <p>&copy; 2023 Insove - All Right Reserved</p>
+    </div>
+    <script src="script.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyB2I1zjuV5AGPZn-wOYz97LrjdYelcYZWk",
+            authDomain: "farankidscampus-skt.firebaseapp.com",
+            projectId: "farankidscampus-skt",
+            storageBucket: "farankidscampus-skt.appspot.com",
+            messagingSenderId: "192636334174",
+            appId: "1:192636334174:web:4fb4dc22378e1c1384c4cf",
+            measurementId: "G-QH4J88J3NP"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
+</body>
+
+</html>
